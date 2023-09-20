@@ -9,7 +9,9 @@
 
 - The folders inside those subfolders (e.g., Code/03 Events/01 Starting Project) represent individual code snapshots - e.g., the starting project code for a course section.
 
-## Introduction
+## Section-1: Getting Started
+
+### What is GitHub Actions?
 
 - GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
 
@@ -17,7 +19,7 @@
 
 - GitHub provides Linux, Windows, and macOS virtual machines to run your workflows, or you can host your own self-hosted runners in your own data center or cloud infrastructure.
 
-## The components of GitHub Actions
+### The components of GitHub Actions
 
 - You can configure a GitHub Actions workflow to be triggered when an event occurs in your repository, such as a pull request being opened or an issue being created. Your workflow contains one or more jobs which can run in sequential order or in parallel. Each job will run inside its own virtual machine runner, or inside a container, and has one or more steps that either run a script that you define or run an action, which is a reusable extension that can simplify your workflow.
 
@@ -39,3 +41,24 @@
 
 - Runners
   - A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine. GitHub also offers larger runners, which are available in larger configurations. For more information, see "About larger runners." If you need a different operating system or require a specific hardware configuration, you can host your own runners. For more information about self-hosted runners, see "Hosting your own runners."
+
+### Git, Github, Github Actions
+
+- Git
+  - Git is a free version control system.
+  - We can download in windows or linux or any.
+  - Git manages sources code changes.
+  - Git  allows you to take snapshots of your code like git "commit".
+  - Git helps you to manages different version of code with help of "branches".
+  - Moving between branches & commits via "checkout"
+
+- GitHub
+  - GitHub is a cloud git repository & service provider.
+  - you can use it to share and use as a centralise repo storage or code storage instead of storing at local.
+  - Push, pull from public and private team management & more.
+  - features it has like code management6 & Colaborative development via issues, projects, pull request etc.
+
+- GitHub Actions
+  - GitHub offers an automation service for code and code management service.
+
+### Git, GitHub crash Course [If you know already skip it]
