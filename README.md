@@ -116,25 +116,28 @@
 
 - go to cmd and navigate to that folder.
 
-- git init 
-  - initialize the git and to be managed by git.
+#### git init 
 
-- Staging files and creating commits
-  - git add index.html (single file)
-  - git add index.html xyz.json ok.yml (multiple files)
-  - git add subfolder/
-  - git add . (stage all files)
+- initialize the git and to be managed by git.
 
-  - git status (to check which file is staged and which is not)
-  - git commit -m "my code files or new feature xyz" (creating a snapshot with message so that we can remember for what purpose we created this commit)
-  - git log to check who has recently committed the changes.
+#### Staging files and creating commits
 
-- Multiple Commits & Checking out Snapshots
-  - to check more commits
-  - add one line in index.html and do stage, commit and then check via git log
-  - now if you want to check the previous file do git checkout (id of previous commit)
-    - git checkout (id of previous commit from git log)
-    - the code will get changed and you will now see older code
-    - if you want to go back to the original head of the branch do
-      - git switch -
-      - git checkout main
+- git add index.html (single file)
+- git add index.html xyz.json ok.yml (multiple files)
+- git add subfolder/
+- git add . (stage all files)
+- git status (to check which file is staged and which is not)
+- git commit -m "my code files or new feature xyz" (creating a snapshot with message so that wecan remember for what purpose we created this commit)
+
+#### git log to check who has recently committed the changes.
+
+#### Multiple Commits & Checking out Snapshots
+
+- to check more commits
+- add one line in index.html and do stage, commit and then check via git log
+- now if you want to check the previous file do git checkout (id of previous commit)
+  - git checkout (id of previous commit from git log)
+  - the code will get changed and you will now see older code
+  - if you want to go back to the original head of the branch do
+    - git switch -
+    - git checkout main
