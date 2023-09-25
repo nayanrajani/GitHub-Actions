@@ -61,4 +61,70 @@
 - GitHub Actions
   - GitHub offers an automation service for code and code management service.
 
-### Git, GitHub crash Course [If you know already skip it]
+## Section-2: Git, GitHub crash Course [If you know already skip it]
+
+### Configuring Git
+
+- Download Git from website -> https://git-scm.com/downloads
+- restart system and go to cmd and type "git" and hit enter.
+- you will get various git commands.
+- you can set a username and email address that will be connected to all your code snapshots.
+  
+  - This can be done via:
+    - git config --global user.name "your-username"
+    - git config --global user.email "your-email"
+    - You can learn more about Git's configuration options here: https://git-scm.com/docs/git-config
+
+- Git Commands
+  - These are common Git commands used in various situations:
+
+  - start a working area (see also: git help tutorial)
+    - clone     Clone a repository into a new directory
+    - init      Create an empty Git repository or reinitialize an existing one
+
+  - work on the current change (see also: git help everyday)
+    - add       Add file contents to the index
+    - mv        Move or rename a file, a directory, or a symlink
+    - restore   Restore working tree files
+    - rm        Remove files from the working tree and from the index
+
+  - examine the history and state (see also: git help revisions)
+    - bisect    Use binary search to find the commit that introduced a bug
+    - diff      Show changes between commits, commit and working tree, etc
+    - grep      Print lines matching a pattern
+    - log       Show commit logs
+    - show      Show various types of objects
+    - status    Show the working tree status
+
+  - grow, mark and tweak your common history
+    - branch    List, create, or delete branches
+    - commit    Record changes to the repository
+    - merge     Join two or more development histories together
+    - rebase    Reapply commits on top of another base tip
+    - reset     Reset current HEAD to the specified state
+    - switch    Switch branches
+    - tag       Create, list, delete or verify a tag object signed with GPG
+
+  - collaborate (see also: git help workflows)
+    - fetch     Download objects and refs from another repository
+    - pull      Fetch from and integrate with another repository or a local branch
+    - push      Update remote refs along with associated objects
+
+### Getting started with setup
+
+- check out sample-code folder hwere you will find a index.html file which is new and we want it to be pushed to our repo/github.
+
+- go to cmd and navigate to that folder.
+
+- git init 
+  - initialize the git and to be managed by git.
+
+- Staging files and creating commits
+  - git add index.html (single file)
+  - git add index.html xyz.json ok.yml (multiple files)
+  - git add subfolder/
+  - git add . (stage all files)
+
+  - git status (to check which file is staged and which is not)
+  - git commit -m "my code files or new feature xyz" (creating a snapshot with message so that we can remember for what purpose we created this commit)
+  - git log to check who has recently committed the changes.
