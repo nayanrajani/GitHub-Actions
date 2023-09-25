@@ -141,7 +141,3 @@
   - if you want to go back to the original head of the branch do
     - git switch -
     - git checkout main
-
-#### Reverting changes with git revert
-
-- 
