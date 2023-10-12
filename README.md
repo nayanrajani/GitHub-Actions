@@ -63,7 +63,7 @@
 
 ## Section-2: Git, GitHub crash Course [If you know already skip it]
 
-### Configuring Git
+### Configuring & Understanding Git
 
 - Download Git from website -> https://git-scm.com/downloads
 - restart system and go to cmd and type "git" and hit enter.
@@ -75,8 +75,9 @@
     - git config --global user.email "your-email"
     - You can learn more about Git's configuration options here: https://git-scm.com/docs/git-config
 
-- Git Commands
-  - These are common Git commands used in various situations:
+#### Git Commands [External-link](https://www.javatpoint.com/git-commands)
+
+- These are common Git commands used in various situations:
 
   - start a working area (see also: git help tutorial)
     - clone     Clone a repository into a new directory
@@ -116,7 +117,7 @@
 
 - go to cmd and navigate to that folder.
 
-#### git init 
+#### git init
 
 - initialize the git and to be managed by git.
 
@@ -141,3 +142,17 @@
   - if you want to go back to the original head of the branch do
     - git switch -
     - git checkout main
+
+#### git revert & reset
+
+- git revert (commit id)
+- to revert the changes
+
+- git reset --hard (id)
+- revert to the commit and delete all the commits after the reverted commit
+
+![image](https://github.com/nayanrajani/GitHub-Actions/assets/57224583/5c2a717c-a535-4277-8a49-cd772df76005)
+
+#### git branches
+
+- 
